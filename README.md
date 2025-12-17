@@ -4,7 +4,7 @@ Automated extraction of attendance data from Canvas LMS via the Roll Call Attend
 
 ## Overview
 
-This script automates the process of requesting attendance reports from Canvas Roll Call. Since Roll Call does not provide a direct API for report generation, and the tool is kind of garbage sometimes, this script uses Selenium to automate the browser-based form submission.
+This script automates the process of requesting attendance reports from Canvas Roll Call. Due to the lack of a direct API for report generation and occasional unreliability of the tool, Selenium is used to automate the browser-based form submission. The primary goal is to retrieve the .csv report, which can then be further manipulated, placed in a database, or reported on as needed.
 
 ### What It Does
 
